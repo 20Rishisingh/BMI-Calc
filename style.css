@@ -1,0 +1,91 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: #121;
+   color: peachpuff;
+}
+
+h1{
+   color: yellow;
+   text-decoration: underline 3px pink;
+   text-align: center;
+   font-size: 50px;
+   font-family: cursive;
+   margin: 40px;   
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   height: 80%;
+   width: 30%;
+   text-align: center;
+   /* align-items: center; */
+   border: 2px solid yellow;
+   border-radius: 10%;
+   margin: auto;
+   font-size: 30px;
+}
+
+#height{
+   font-size: 22px;
+   width: 150px;
+   margin: auto;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   padding-left: 8px;
+}
+
+#weight{
+   font-size: 22px;
+   width: 150px;
+   margin: auto;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   padding-left: 8px;
+}
+
+#btn{
+   height: 40px;
+   width: 120px;
+   font-size: 25px;
+   background-color: #121;
+   color: yellow;
+   border-radius: 10px;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#btn:hover{
+   border: 2px solid yellow;
+   cursor: pointer;
+   color: burlywood;
+}
+
+#result{
+   /* border: red 1px solid; */
+   height: 2rem;
+   width: 15rem;
+   margin: auto;
+   margin-bottom: 20px;
+   background-color: rgba(5, 111, 130, 0.744);
+   color: white;
+}
+
+h2{
+   color: yellow;
+   text-decoration: underline 3px pink;
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+p{
+   font-size: 25px;
+   margin: 10px;
+}
+
